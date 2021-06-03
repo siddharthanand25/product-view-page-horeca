@@ -1,0 +1,22 @@
+/* Column container */
+.rowProd {  
+    display: flex;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    padding: 20px;
+  }
+
+  table, th, td {
+   
+    padding: 10px;
+  }

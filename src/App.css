@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+  
+}
+
+.App {
+    width: 10%;
+    min-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+}
+html, body, #app, #app>div {
+    height: 100%;
+    width: 100%;
+  }
+
+.carousel{
+    display:flex;
+    justify-content:center;
+}
+
+.carousel .slide{
+    height: 50vh;
+}
+
+.carousel .slide img{
+    max-width: 100%;
+    width: auto;
+ 
+}
+
+.image{
+    margin: 0 auto;
+    height: 100%;
+    width: auto; 
+}
+
+@media only screen and (max-width:1200px){
+    .carousel{
+        height:80vh;
+    }
+
+    .carousel .slide img{
+        margin: 10vh auto;
+        width: 100vw;
+
+    }
+} 
+
